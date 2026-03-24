@@ -968,4 +968,16 @@ li + li {
   .gallery-card img {
     height: 240px;
   }
+  @media (max-width: 780px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .chapter-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .media-split {
+    grid-template-columns: 1fr;
+  }
 }
