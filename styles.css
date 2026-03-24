@@ -969,15 +969,34 @@ li + li {
     height: 240px;
   }
   @media (max-width: 780px) {
+
   .hero-grid {
+
     grid-template-columns: 1fr;
+
+    padding-top: 4rem;
+
   }
 
   .chapter-grid {
+
     grid-template-columns: 1fr;
+
   }
 
   .media-split {
+
     grid-template-columns: 1fr;
+
+  }
+
+  .intro-section,
+
+  .chapter,
+
+  .closing-section {
+
+    padding-top: 4rem;
+
   }
 }
